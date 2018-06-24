@@ -12,13 +12,13 @@ function print (text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid (name) {
-//    let userName = name;
-//    if ((userName === '') || (userName.length < 4) ||(userName.indexOf(' ') !== -1 )){
-//        return false;
-//    }
-//    else  {
-//      return true;
-//    }
+    let userName = name;
+    if ((userName === '') || (userName.length < 4) ||(userName.indexOf(' ') !== -1 )){
+        return false;
+    }
+    else  {
+      return true;
+    }
     console.log(name);
 }
 
